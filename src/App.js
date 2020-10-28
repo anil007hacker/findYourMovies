@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Header from './Container/Header/Header'
 import Nav from './Container/Nav/Nav'
 import './App.css'

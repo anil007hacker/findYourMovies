@@ -1,7 +1,6 @@
 import React,{ useState,useEffect } from 'react'
 import VideoCard from '../VideoCard/VideoCard'
 import './Results.css'
-import requests from '../Request/Request'
 import axios from 'axios'
 import FlipMove from 'react-flip-move'
 
