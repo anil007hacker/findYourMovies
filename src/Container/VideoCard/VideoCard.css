@@ -1,0 +1,45 @@
+.videoCard{
+    color: white;
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    transition: transform 100ms;
+    padding-top: 20px;
+}
+
+.videoCard:hover{
+    transform: scale(1.09);
+}
+
+.videoCard > img {
+    height: 200px;
+    object-fit: contain;
+    width: 400px;
+}
+
+.videoCard > h2{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.videoCard > p{
+    padding-left: 20px;
+}
+
+
+.header::-webkit-scrollbar{
+    display: none;
+}
+
+.header{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.stats{
+    display: none;
+}
+
+.videoCard:hover > .stats{
+    display: inline;
+} 
+
